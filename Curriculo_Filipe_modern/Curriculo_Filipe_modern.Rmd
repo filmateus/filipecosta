@@ -1,0 +1,64 @@
+---
+name: Filipe
+surname: Costa
+position: "Bacharel em Estatística"
+address: "Teresina - PI"
+phone: +55 86 99931 4134
+#www: mariecurie.com
+email: "filipemateus@outlook.com"
+#twitter: mariecurie
+github: filmateus
+linkedin: FilipeMateus04
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: FF4500
+output: 
+  vitae::moderncv:
+    #theme: fancy
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Sobre mim
+
+ * Aprendendo constantemente a fazer análise de dados.
+ * Experiência com trabalhos, principalmente, em linguagem `R` e pesquisa com SQL. 
+ * Desenvolvendo o aprendizado em Python e PowerBi.
+
+# Educação
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bacharelarado em Ciência Política", "2012-2016", "UFPI", "Teresina-PI, Brasil",
+  "Bacharelarado em Estatística", "2019-2023", "UFPI", "Teresina-PI, Brasil",
+) %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experiência em Pesquisa
+
+```{r}
+tribble(
+ ~ Degree, ~ Year, ~ Institution, ~ Where,
+  'Laboratorio de Colaboração Estatística', '2020', "UFPI", "Teresina-PI, Brasil",
+  'Pesquisa em Valores Extremos', '2022', "UFPI", "Teresina-PI, Brasil"
+) %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experiência em Trabalhos 
+
+```{r}
+tribble(
+ ~ Degree, ~ Year, ~ Institution, ~ Where,
+  'Técnico de Análise de Dados', '2021-2022', "STRANS - Superintendência Municipal de Trânsito e Transportes", "Teresina-PI, Brasil",
+  'Estágio em Estátisca', '2022', "Escola bilíngue Bright Bee", "Teresina-PI, Brasil"
+) %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
