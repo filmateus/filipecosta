@@ -1,0 +1,145 @@
+---
+title: "Filipe Costa's resume"
+author: Filipe Costa
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+# Aside
+
+## Contato {#contact}
+
+-   <i class="fa fa-envelope"></i> filipemateus\@outlook.com
+-   <i class="fa fa-github"></i> [github.com/filmateus](https://github.com/filmateus)
+-   <i class="fa fa-phone"></i> +55 86-99931-4134
+
+## Habilidades {#Habilidades}
+
+-   Experiência com análises Estatísticas, criação de modelos.
+
+-   Trabalhos com R, Python, LaTeX, python e Power BI
+
+## Disclaimer {#disclaimer}
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+# Main
+
+## Filipe Costa {#title}
+
+### Graduando em Estatística e Analista de Dados
+
+Na minha experiência, trabalhar com dados é desafiador e uma contínua aprendizagem. Já utilizei Excel e Power Bi. Atualmente, as ferramentas que mais utilizo são R, Python e SQL pela versatilidade para produzir relatórios e a possibilidade de automação de procedimentos.
+
+## Educação {data-icon="graduation-cap" data-concise="true"}
+
+### Universidade Federal do Piauí
+
+Bacharelado em Ciência Política
+
+Teresina, PI
+
+2012 - 2016
+
+### Universidade Federal do Piauí
+
+Bacharelado em Estatística
+
+Teresina, PI
+
+2019 - 2023
+
+## Experiência em pesquisa {data-icon="laptop"}
+
+### Laboratorio de Colaboração Estatística.
+
+UFPI
+
+Teresina, PI
+
+2020
+
+-   Trabalho na área de Jurimetria com dados do TJ-PI
+
+### Valores Extremos
+
+UFPI
+
+Teresina, PI
+
+2022
+
+-   Pesquisas de valores extremos com notificações de trânsito - TCC.
+
+## Experiência Professional {data-icon="suitcase"}
+
+### Técnico em Análise de Dados
+
+Strans - Superintendência Municipal de Transportes e Trânsito
+
+Teresina, PI
+
+2021 -
+
+::: concise
+-   Análises estatísticas.
+-   Trabalhos realizados com R e Python
+-   Automatização de procedimentos com Selenium.
+-   Construção de dashboards com Dash e Flex dashboard
+:::
+
+### Estágio em Estatística
+
+Bright Bee escola bilíngue
+
+Teresina, PI
+
+2022
+
+::: concise
+-   Análises estatísticas em R.
+-   Criação de dashboard com Power Bi
+:::
+
+## Experiência de Ensino {data-icon="chalkboard-teacher"}
+
+### Introdução à Linguagem R.
+
+Introdução ao Rmarkdown
+
+Teresina, PI
+
+2022
+
+## Apresentações e posters {data-icon="file"}
+
+### Modelagem da ocorrência de acidentes com vítimas fatais em rodovias federais através da Regressão logística.
+
+Apresentação Oral na Semana de Estatística da UFPI
+
+Teresina, PI
+
+2022
+
+### Realizando a previsão de arrecadação de um radar de Teresina com distribuição Poisson composta na teoria de valores extremos.
+
+Apresentação Oral na Semana de Estatística da UFPI
+
+Teresina, PI
+
+2022
+
+## Cursos {data-icon="graduation-cap" data-concise="true"}
+
+### Interactive Python Dashboards with Plotly and Dash
+
+::: concise
+-   Fundamentos Para construção de Dashboards Em Linguagem Python
+:::
