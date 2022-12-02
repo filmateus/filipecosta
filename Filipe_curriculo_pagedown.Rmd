@@ -36,7 +36,7 @@ Last updated on `r Sys.Date()`.
 
 ### Graduando em Estatística e Analista de Dados
 
-Trabalhar com dados é desafiador e uma contínua aprendizagem. Já utilizei Excel e Power Bi. Atualmente, as ferramentas que mais utilizo são R, Python e SQL pela versatilidade para produzir relatórios e a possibilidade de automação de procedimentos.
+Trabalhar com dados é desafiador e uma contínua aprendizagem. Já utilizei Excel e Power Bi. Atualmente, as ferramentas que mais utilizo são R, Python e SQL.
 
 ## Educação {data-icon="graduation-cap" data-concise="true"}
 
